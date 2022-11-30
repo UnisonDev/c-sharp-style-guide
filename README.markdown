@@ -1,4 +1,35 @@
-# The Official raywenderlich.com C# Style Guide
+## Table of Contents
+
+- [The Official kodeco.com C# Style Guide](#the-official-kodecocom-c-style-guide)
+  - [Inspiration](#inspiration)
+  - [Nomenclature](#nomenclature)
+    - [Namespaces](#namespaces)
+    - [Classes & Interfaces](#classes--interfaces)
+    - [Methods](#methods)
+    - [Fields](#fields)
+    - [Properties](#properties)
+    - [Parameters](#parameters)
+    - [Actions](#actions)
+    - [Misc](#misc)
+  - [Declarations](#declarations)
+    - [Access Level Modifiers](#access-level-modifiers)
+    - [Fields & Variables](#fields--variables)
+    - [Classes](#classes)
+    - [Interfaces](#interfaces)
+  - [Spacing](#spacing)
+    - [Indentation](#indentation)
+      - [Blocks](#blocks)
+      - [Line Wraps](#line-wraps)
+    - [Line Length](#line-length)
+    - [Vertical Spacing](#vertical-spacing)
+  - [Brace Style](#brace-style)
+  - [Switch Statements](#switch-statements)
+  - [Language](#language)
+  - [Copyright Statement](#copyright-statement)
+  - [Smiley Face](#smiley-face)
+  - [Credits](#credits)
+
+# The Official kodeco.com C# Style Guide
 
 This style guide is different from others you may find, because the focus is
 centered on readability for print and the web. We created this style guide to
@@ -10,32 +41,7 @@ Our overarching goals are **conciseness**, **readability** and **simplicity**. A
 
 This style guide is based on C# and Unity conventions. 
 
-## Table of Contents
 
-- [Nomenclature](#nomenclature)
-  + [Namespaces](#namespaces)
-  + [Classes & Interfaces](#classes--interfaces)
-  + [Methods](#methods)
-  + [Fields](#fields)
-  + [Parameters](#parameters--parameters)
-  + [Delegates](#delegates--delegates)
-  + [Events](#events--events)
-  + [Misc](#misc)
-- [Declarations](#declarations)
-  + [Access Level Modifiers](#access-level-modifiers)
-  + [Fields & Variables](#fields--variables)
-  + [Classes](#classes)
-  + [Interfaces](#interfaces)
-- [Spacing](#spacing)
-  + [Indentation](#indentation)
-  + [Line Length](#line-length)
-  + [Vertical Spacing](#vertical-spacing)
-- [Brace Style](#brace-style)
-- [Switch Statements](#switch-statements)
-- [Language](#language)
-- [Copyright Statement](#copyright-statement)
-- [Smiley Face](#smiley-face)
-- [Credit](#credits)
 
 
 ## Nomenclature
@@ -49,13 +55,13 @@ Namespaces are all **PascalCase**, multiple words concatenated together, without
 **AVOID**:
 
 ```csharp
-com.raywenderlich.fpsgame.hud.healthbar
+com.kodeco.fpsgame.hud.healthbar
 ```
 
 **PREFER**:
 
 ```csharp
-RayWenderlich.FPSGame.HUD.Healthbar
+Kodeco.FPSGame.HUD.Healthbar
 ```
 
 ### Classes & Interfaces
@@ -202,7 +208,7 @@ IRadialSlider
 
 ## Spacing
 
-Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
+Spacing is especially important in kodeco.com code, as code needs to be easily readable as part of the tutorial. 
 
 ### Indentation
 
@@ -375,7 +381,7 @@ The exception here is `MonoBehaviour` as that's what the class is actually calle
 The following copyright statement should be included at the top of every source file:
 
     /*
-     * Copyright (c) 2022 Razeware LLC
+     * Copyright (c) 2022 Kodeco LLC
      * 
      * Permission is hereby granted, free of charge, to any person obtaining a copy
      * of this software and associated documentation files (the "Software"), to deal
@@ -410,8 +416,8 @@ In this repository, copy the **ScripTemplates** folder into your own Unity **Ass
 
 ## Smiley Face
 
-Smiley faces are a very prominent style feature of the raywenderlich.com site!
-It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket ] is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis ("**:)**") creates a half-hearted smile, and thus is not preferred.
+Smiley faces are prominent style feature of the kodeco.com site!
+It's important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket ] is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis ("**:)**") creates a half-hearted smile, and thus is not preferred.
 
 **AVOID**:
 
@@ -426,7 +432,7 @@ It is very important to have the correct smile signifying the immense amount of 
 ## Credits
 
 This style guide is a collaborative effort from the most stylish
-raywenderlich.com team members:
+kodeco.com team members:
 
 - [Darryl Bayliss](https://github.com/DarrylBayliss)
 - [Sam Davies](https://github.com/sammyd)
